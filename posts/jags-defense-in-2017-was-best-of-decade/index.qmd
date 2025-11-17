@@ -102,9 +102,6 @@ top10sacks |>
 The 2017 Jaguars rank fourth on this list, which isn't number one, however, getting to the quarterback isn't the only thing a defense looks to accomplish. "Sacksonville" obviously did that very well, but their secondary defense rivaled their pass rush. Led by Jalen Ramsey, AJ Bouye and Barry Church, this secondary terrorized other teams passing attack and only allowed 2,718 passing yards on the season. Here's how they stack up compared to other defenses in the decade.
 
 ```{r}
-
-
-  
   ggplot() + 
   geom_bar(data=top10pyg, aes(x=reorder(TeamSeason, PassingYds), weight=PassingYds)) +
   coord_flip() +
